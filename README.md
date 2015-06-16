@@ -21,11 +21,8 @@ https://www.playframework.com/documentation/ja/2.2.x/ScalaTodoList
 
 ### library依存
 ```libraryDependencies ++= Seq(
-
   "com.typesafe.play" %% "anorm" % "2.4.0",
-
   evolutions
-
 )```
 
 ※evolutionsの指定をしないと、手順通りに作ってもエボリューションが動きません。
@@ -34,7 +31,6 @@ https://www.playframework.com/documentation/ja/2.2.x/ScalaTodoList
 以下のimportを追加。
 
 ```@import play.api.Play.current
-
 @import play.api.i18n.Messages.Implicits._```
 
 ### herokuへのデプロイ
