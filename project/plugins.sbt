@@ -16,4 +16,4 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-digest" % "1.1.0")
 addSbtPlugin("com.typesafe.sbt" % "sbt-mocha" % "1.1.0")
 
 //addSbtPlugin("com.github.kkkatsube.sbteclipse" % "sbteclipse-plugin" % "4.0.1-117d94ada9788e6ccd634354181f49c4089dc9a2-SNAPSHOT")
-
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "4.0.0-RC2")
