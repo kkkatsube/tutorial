@@ -10,7 +10,7 @@ import views._
 class Application extends Controller {
 
   def index = Action {
-    Redirect(routes.Application.tasks)
+    Ok("This is test page.")
   }
   
   def tasks = Action {
