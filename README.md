@@ -17,6 +17,8 @@ https://www.playframework.com/documentation/ja/2.2.x/ScalaTodoList
 ## 作り方
 ```activator new tutorial play-scala```
 
+このプロジェクトをベースに、上記URLに従って実装。
+
 ## 修正ポイント
 
 ### library依存
